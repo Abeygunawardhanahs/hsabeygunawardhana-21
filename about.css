@@ -1,0 +1,103 @@
+body{
+    background-color: rgba(218, 220, 147, 0.241);
+   
+
+}
+ .box-a{
+    padding: 20% 40% 20% 30%;
+    margin: 20% 40% 25% 30%;
+ }   
+
+ header{
+    position:fixed;
+     top: 0; left: 40; 
+     z-index: 1000; 
+    height: 100%;
+    width: 30rem;
+    
+    display: flex;  
+  
+    justify-content: center; 
+    flex-flow: column;
+    text-align: center;
+ }
+ header .user img{
+    height: 17rem;
+    width: 17rem;
+    border-radius: 45%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: .7rem ;
+ }
+
+ header .user .name{
+    font-size: 3.rem;
+
+ }
+ .box1 h1{
+    text-align: center;
+    font-size: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:azure;
+    
+}.box1{
+    
+     border:50px solid  rgba(133, 130, 130, 0.993);
+    border-width: 40px;
+    margin-left: 35%;
+    background-color: rgba(128, 128, 128, 0.615);
+} 
+.box2{
+    margin: auto;
+    padding:0px 10% 40% 40% ; 
+    border:0;
+}
+.box2 p{
+    bottom: 10cm;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(11, 9, 9);
+    float:inline-end;
+
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .box1 h1{
+    
+    position: relative;
+    font-size: 6vw;
+    color:#252839;
+    -webkit-text-stroke: 0.2vw #383d52;
+    text-transform: uppercase;
+  }
+  .box1 h1::before{
+    content: attr(data-text);
+    position:absolute;
+    
+    right: 0;
+    width: 20%;
+    height: 100%;
+    color:darksalmon;
+    -webkit-text-stroke: 0vw; 
+    border-right: 1px solid darksalmon;
+    overflow: hidden;
+    animation: animate 7s linear infinite;
+  }
+
+  @keyframes animate
+  {
+    0%,10%,100%
+    {
+        width: 0;
+    }
+    70%,90%
+    {
+        width: 100%;
+    }
+       
+  }

@@ -1,0 +1,69 @@
+ body{
+    background-color: rgba(218, 220, 147, 0.241);
+   
+}
+ .box-a{
+    padding: 20% 40% 20% 30%;
+    margin: 20% 40% 25% 30%;
+ }   
+
+ header{
+    position:fixed;
+     top: 0; left: 40; 
+     z-index: 1000; 
+    height: 100%;
+    width: 30rem;
+    
+    display: flex;  
+    align-items: center; 
+    justify-content: center; 
+    flex-flow: column;
+    text-align: center;
+ }
+ header .user img{
+    height: 17rem;
+    width: 17rem;
+    border-radius: 45%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: .7rem ;
+ }
+
+ header .user .name{
+    font-size: 3.rem;
+
+ }
+.navbar{
+    width: 100%;
+
+ }
+ .navbar ul{
+    list-style: none;
+    padding: 1rem 1em;
+
+ } 
+
+  .navbar ul li a{
+    display: block; 
+    padding: 1em ;
+    margin: 1.5rem 0;
+    background: rgba(51, 51, 51, 0.37);
+    color:rgb(240, 255, 255);
+    font-size:4rem ;
+    border-radius:6rem;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}  
+
+.navbar ul li a.hover{
+    background:va(--yellow);
+}
+.fa {
+   padding: 20px;
+   font-size: 30px;
+   width: 50px;
+   text-align: center;
+   text-decoration: none;
+ }
+
